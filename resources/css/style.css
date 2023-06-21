@@ -4,21 +4,31 @@ html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h1 {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
 header {
     display: inline-flex;
     justify-content: space-between;
     align-items: center;
     background-color: #593F62;
     width: 100%;
+    border-bottom: 5px solid #3B3923;
 }
 
 header h1 {
-    font-size: 4rem;
     padding: 2rem;
 }
 
 header nav ul {
-    padding: 1.5rem;
+    padding: 2rem;
 }
 
 header nav ul li {
@@ -28,4 +38,30 @@ header nav ul li {
 header nav ul li a {
     font-size: 1.75rem;
     padding: 0.5rem;
+    border: 3px solid #3B3923;
+    border-radius: 5px;
+}
+
+header nav ul li a:hover {
+    background-color: #736F4E;
+}
+
+#welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem auto;
+    width: 81rem;
+    height: 45rem;
+    background-image: url('../images/welcome-splash.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 5px solid #3B3923;
+}
+
+#welcome h2 {
+    background-color: #736F4E;
+    padding: 2rem;
+    border-radius: 10px;
 }

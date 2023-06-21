@@ -10,8 +10,12 @@ h1 {
 }
 
 h2 {
-    font-size: 3.5rem;
+    font-size: 4rem;
     font-weight: bold;
+}
+
+h3 {
+    font-size: 3rem;
 }
 
 header {
@@ -58,10 +62,46 @@ header nav ul li a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     border: 5px solid #3B3923;
+    border-radius: 10px;
 }
 
 #welcome h2 {
     background-color: #736F4E;
     padding: 2rem;
+    border: 3px solid #3B3923;
     border-radius: 10px;
+}
+
+#links {
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 2rem auto;
+}
+
+#links .link {
+    box-sizing: border-box;
+    border: 3px solid #3B3923;
+    height: 17rem;
+    width: 500px;
+    margin: 0 5rem 0 5rem;
+}
+
+#links .link h3 {
+    background-color: #593F62;
+    padding: 2rem 0;
+    border-radius: 5px;
+    margin: 1rem;
+    text-decoration: underline;
+}
+
+#links .link p {
+    font-size: 1.75rem;
+    padding: 0.5rem;
+}
+
+#links .link:hover { 
+    background-color: #736F4E;
 }

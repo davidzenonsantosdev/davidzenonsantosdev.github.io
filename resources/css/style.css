@@ -147,3 +147,40 @@ footer p {
 .contact p {
     padding: 1rem;
 }
+
+#projects {
+    margin: 2rem;
+}
+
+#projects h2 {
+    margin: 2rem 0;
+}
+
+#projects p {
+    font-size: 1.5rem;
+}
+
+#projects .project {
+    margin-bottom: 4rem;
+}
+
+#projects .project h3 {
+    margin: 2rem 0;
+}
+
+#projects .project .images {
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#projects .project .images img {
+    width: 25rem;
+    max-height: 20rem;
+}
+
+#projects .project p {
+    margin: 1rem;
+    font-size: 1.5rem;
+}

@@ -55,7 +55,7 @@ header nav ul li a:hover {
     justify-content: center;
     align-items: center;
     margin: 2rem auto;
-    width: 81rem;
+    max-width: 90%;
     height: 45rem;
     background-image: url('../images/welcome-splash.jpg');
     background-position: center;
@@ -104,4 +104,15 @@ header nav ul li a:hover {
 
 #links .link:hover { 
     background-color: #736F4E;
+}
+
+footer {
+    background-color: #736F4E;
+    border-top: 5px solid#3B3923;
+}
+
+footer p {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 2.5rem;
 }

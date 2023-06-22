@@ -141,7 +141,7 @@ footer p {
 }
 
 .icons i {
-    margin: 1rem;
+    margin: 2rem 1rem;
 }
 
 .contact p {
@@ -173,14 +173,46 @@ footer p {
     width: 100%;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 #projects .project .images img {
     width: 25rem;
     max-height: 20rem;
+    margin: 2rem;
 }
 
 #projects .project p {
     margin: 1rem;
     font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 1350px)  {
+    header nav ul li {
+        display: block;
+        text-align: end;
+        margin-top: 2rem;
+    }
+}
+
+@media only screen and (max-width: 825px) {
+    #links {
+        flex-wrap: wrap;
+    }
+
+    #links .link {
+        box-sizing: content-box;
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    header {
+        display: block;
+    }
+
+    header nav ul li {
+        display: inline;
+    }
 }
